@@ -1,0 +1,6 @@
+@startuml
+title シーケンス図
+Bob -> Alice : hello
+アリス -> ボブ: リクエスト
+ボブ --> アリス: レスポンス
+@enduml

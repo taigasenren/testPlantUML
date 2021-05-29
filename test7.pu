@@ -1,0 +1,16 @@
+@startuml
+start
+switch ()
+case ( 鍵=QRkey )
+  :Text 1;
+case ( 鍵=Remotelock ) 
+  :Text 2;
+case ( 鍵=number錠 )
+  :Text 3;
+case ( condition D )
+  :Text 4;
+case ( condition E )
+  :Text 5;
+endswitch
+stop
+@enduml
