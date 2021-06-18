@@ -1,0 +1,47 @@
+@startgantt
+Project starts the 2020/5/11
+saturday are closed
+sunday are closed
+2020/5/20 is closed
+2020/6/16 to 2020/6/18 is closed
+-- Step 1 --
+[要求分析(計画)] lasts 3 days
+[要求分析(実績)] lasts 2 days and is colored in Fuchsia/FireBrick
+[要求仕様が決定] happens at [要求分析(計画)]'s end
+[外部設計(計画)] lasts 5 days
+[外部設計(実績)] lasts 4 days and is colored in Fuchsia/FireBrick
+[外部設計(実績)] starts at [要求分析(実績)]'s end
+[外部設計(計画)] starts at [要求分析(計画)]'s end
+[外部設計が決定] happens at [外部設計(計画)]'s end
+[システムテストケースが決定] happens at [外部設計(計画)]'s end
+[内部設計(計画)] lasts 5 days
+[内部設計(実績)] lasts 8 days and is colored in Fuchsia/FireBrick
+[内部設計(実績)] starts at [外部設計(実績)]'s end
+[内部設計(計画)] starts at [外部設計(計画)]'s end
+[内部設計が決定] happens at [内部設計(計画)]'s end
+[結合テストケースが決定] happens at [内部設計(計画)]'s end
+-- Step 2 --
+[コーディング(計画)] lasts 7 days
+[コーディング(実績)] lasts 7 days and is colored in Fuchsia/FireBrick
+[コーディング(実績)] starts 1 day after [内部設計(実績)]'s end
+[コーディング(計画)] starts at [内部設計(計画)]'s end
+[各種テストコードが完成] happens at [コーディング(計画)]'s end
+[テスト対象コードが決定] happens at [コーディング(計画)]'s end
+[単体テスト(計画)] lasts 2 days
+[単体テスト(計画)] starts at [コーディング(計画)]'s end
+[各モジュールの動作確認を完了] happens at [単体テスト(計画)]'s end
+-- Step 3 --
+[結合テスト(計画)] lasts 3 days
+[結合テスト(計画)] starts at [単体テスト(計画)]'s end
+[内部動作の確認を完了] happens at [結合テスト(計画)]'s end
+[システムテスト(計画)] lasts 4 days
+[システムテスト(計画)] starts at [結合テスト(計画)]'s end
+[外部動作の確認を完了] happens at [システムテスト(計画)]'s end
+[品質確認テスト(計画)] lasts 14 days
+[品質確認テスト(計画)] starts at [システムテスト(計画)]'s end
+[品質確認を完了] happens at [品質確認テスト(計画)]'s end
+[リリース(計画)] lasts 1 days
+[リリース(計画)] starts at [品質確認テスト(計画)]'s end
+[開発完了] happens at [リリース(計画)]'s end
+[オペレーション開始] happens at [リリース(計画)]'s end
+@endgantt

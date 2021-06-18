@@ -1,3 +1,24 @@
+
+# PlantUML とは
+PlantUML は、以下のような図をテキストで素早く描くためのオープンソースプロジェクトです。
+
+シーケンス図 / Sequence diagram
+ユースケース図 / Usecase diagram
+クラス図 / Class diagram
+アクティビティ図 / Activity diagram
+コンポーネント図 / Component diagram
+状態遷移図 / State diagram
+オブジェクト図 / Object diagram
+
+## reference
+
+## コメントアウト
+' 一行コメント (行末まで)
+
+/'
+ 複数行のコメント
+ '/
+
 フローチャート　
 https://wordpress.ideacompo.com/?p=2605
 
