@@ -1,0 +1,107 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "リッチメニュー 5",
+    "chatBarText": "お知らせ",
+    "areas": [
+      {
+        "bounds": {
+          "x": 17,
+          "y": 25,
+          "width": 1637,
+          "height": 1142
+        },
+        "action": {
+          "type": "message",
+          "text": "RAKUKA info"
+        }
+      },
+      {
+        "bounds": {
+          "x": 50,
+          "y": 1196,
+          "width": 255,
+          "height": 219
+        },
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/1655320740-qQybrXbA/instagram"
+        }
+      },
+      {
+        "bounds": {
+          "x": 338,
+          "y": 1200,
+          "width": 244,
+          "height": 203
+        },
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/1655320740-qQybrXbA/map"
+        }
+      },
+      {
+        "bounds": {
+          "x": 50,
+          "y": 1444,
+          "width": 1538,
+          "height": 181
+        },
+        "action": {
+          "type": "uri",
+          "uri": "tel:011-521-1087"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1675,
+          "y": 227,
+          "width": 821,
+          "height": 412
+        },
+        "action": {
+          "type": "message",
+          "text": "祝花\n\n※次の画像が表示されるまで少々お待ちください"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1667,
+          "y": 664,
+          "width": 825,
+          "height": 400
+        },
+        "action": {
+          "type": "message",
+          "text": "供花\n\n※次の画像が表示されるまで少々お待ちください"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1667,
+          "y": 1106,
+          "width": 833,
+          "height": 371
+        },
+        "action": {
+          "type": "message",
+          "text": "観葉植物\n\n※次の画像が表示されるまで少々お待ちください"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1679,
+          "y": 1502,
+          "width": 813,
+          "height": 177
+        },
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/1655320740-qQybrXbA/privacyPolicy"
+        }
+      }
+    ]
+  }
